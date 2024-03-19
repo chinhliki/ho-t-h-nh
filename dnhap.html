@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phim Hoạt Hình 3D</title>
+    <link rel="shortcut icon" href="https://hoathinh3d.biz/wp-content/uploads/2023/09/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="dangnhap.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html"><img class="logo" src="https://hhninja1.tv/assets/upload/hoXjw2ytc2komVH1686726083.png"></a>
+                </li>
+                <li>
+                    <a href="./index.html">TRANG CHỦ</a></li>
+                <li>
+                    <a href="./thel.html">THỂ LOẠI PHIM</a></li>
+                <li>
+                    <a href="./tintuc.html">TIN TỨC PHIM</a></li>
+                <li>
+                    <a href="./LHE.HTML">LIÊN HỆ</a></li>
+                <li>
+                    <a href="./dky.html">ĐĂNG KÝ</a></li>
+                <li>
+                    <a href="./dnhap.html">ĐĂNG NHẬP</a></li>
+            </ul>
+        </nav>
+        <h1>PHIM HOẠT HÌNH 3D</h1>
+        <marquee Scroll="slide" direction ="right" bgcolor="yellow" style="color: black;"> <p> &#10084; chào mừng bạn đến với trang xem phim trực tuyến hot nhất mọi thời đại &#9832;</p></marquee>
+    </header>
+    <main>
+        <div class="login">
+            <form class="login-form">
+                <h1>Đăng Nhập</h1>
+                <label for="username">User</label>
+                <input type="text" id="username" class="input-account">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="input-account">
+                <button id="loginButton" class="button-login">Đăng Nhập</button>
+            </form>
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy; Copy by DNU A CHINH</p>
+    </footer>
+</body>
+<script>
+    document.getElementById("loginButton").addEventListener("click", function(event) {
+        event.preventDefault();
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        if (username === username && password === password) 
+        {
+            alert("Đăng nhập thành công!");
+        } 
+        else {
+            alert("Tên đăng nhập hoặc mật khẩu không đúng. Vui lòng thử lại.");
+        }
+    });
+</script>
+</html>
